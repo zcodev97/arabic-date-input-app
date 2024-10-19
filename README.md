@@ -51,52 +51,42 @@ Here’s a quick demo showing how the Arabic Date Input component works:
 
      ```javascript
      function App() {
-       const [value, setValue] = useState("2024-01-01");
        return (
-         <>
-           <div>
-             <div>{value}</div>
-
-             <div
-               style={{
-                 display: "flex",
-                 justifyContent: "center",
-                 alignItems: "center",
-                 height: "10vh",
-               }}
-             >
-               <ArabicDateInput
-                 containerStyle={{
-                   display: "flex",
-                   justifyContent: "center",
-                   alignItems: "center",
-                 }}
-                 placeholder="Year - Month - Day"
-                 inputStyle={{
-                   paddingRight: "50px",
-                   paddingTop: "10px",
-                   paddingBottom: "10px",
-                   width: "150px",
-                   border: "3px solid #000",
-                   borderRadius: "30px",
-                   fontWeight: "bold",
-                   fontSize: "16px",
-                 }}
-                 icon={<FaAddressBook size={20} />}
-                 field={{
-                   value: value,
-                   onChange: (value) => {
-                     setValue(value);
-                   },
-                 }}
-                 form={{}}
-               />
-             </div>
-           </div>
-         </>
+         <div
+           style={{
+             display: "flex",
+             justifyContent: "center",
+             alignItems: "center",
+             height: "100vh",
+           }}
+         >
+           <ArabicDateInput
+             placeholder="سنة - شهر - يوم"
+             iconStyle={{
+               position: "absolute",
+               top: "50%",
+               transform: "translateY(-50%)",
+               cursor: "pointer",
+               marginRight: "20px",
+             }}
+             inputStyle={{
+               width: "150px",
+               paddingRight: "50px",
+               border: "3px solid #000",
+               borderRadius: "30px",
+               fontWeight: "bold",
+               fontSize: "16px",
+             }}
+             field={{
+               value: "",
+               onChange: () => {},
+             }}
+             form={{}}
+             debounceMilliseconds={1500}
+           />
+         </div>
        );
      }
-
      export default App;
      ```
 
@@ -109,8 +99,6 @@ If you would like to contribute to improving the component, please open pull req
 We hope this document helps you understand how to use the Arabic Date Input component. If you have any inquiries, feel free to reach out to us.
 
 ---
-
-test
 
 - **Autocompletion**: The component automatically converts various date formats into the standard format (e.g., `2024` to `2024-01-01`, `202411` to `2024-01-01`, `2024.1.1` to `2024-01-01`, `2024/1/1` to `2024-01-01`, and `20240101` to `2024-01-01`).
 - **Suggestions**: If the input is ambiguous (e.g., `2024112`), the user can choose between possible interpretations (e.g., `2024-01-12` or `2024-11-02`).
