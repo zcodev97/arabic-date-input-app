@@ -3,7 +3,11 @@
 ## Introduction
 
 This document provides comprehensive information about the Arabic Date Input component, which allows users to input dates in Arabic format.  
-For more information, visit the [GitHub repository](https://github.com/zcodev97/arabic-date-input-app).
+For more information
+
+[live demo](https://arabic-date-input-app.netlify.app/).
+
+[GitHub repository](https://github.com/zcodev97/arabic-date-input-app).
 
 ### Overview
 
@@ -63,13 +67,6 @@ Here’s a quick demo showing how the Arabic Date Input component works:
          >
            <ArabicDateInput
              placeholder="سنة - شهر - يوم"
-             iconStyle={{
-               position: "absolute",
-               top: "50%",
-               transform: "translateY(-50%)",
-               cursor: "pointer",
-               marginRight: "20px",
-             }}
              inputStyle={{
                width: "150px",
                paddingRight: "50px",

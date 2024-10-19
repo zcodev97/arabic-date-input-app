@@ -23,9 +23,6 @@ function App() {
           fontWeight: "bold",
           fontSize: "16px",
         }}
-        iconStyle={{
-          padding: "10%",
-        }}
         field={{
           value: "",
           onChange: () => {},
