@@ -2,7 +2,7 @@
   "author": "Zakaria Bilal <zcodev97@gmail.com>",
   "name": "arabic-date-input-app",
   "description": "An Arabic date input component with suggestions and autocompletion",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "types": "dist/types/index.d.ts",

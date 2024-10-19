@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This document provides comprehensive information about the Arabic Date Input component, which allows users to input dates in Arabic format.
+This document provides comprehensive information about the Arabic Date Input component, which allows users to input dates in Arabic format.  
+For more information, visit the [GitHub repository](https://github.com/zcodev97/arabic-date-input-app).
 
 ### Overview
 
