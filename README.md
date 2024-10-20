@@ -5,6 +5,12 @@
 This document provides comprehensive information about the Arabic Date Input component, which allows users to input dates in Arabic format.  
 For more information
 
+## Demo of the Arabic Date Input Component
+
+Here’s a quick demo showing how the Arabic Date Input component works:
+
+[Demo of the Arabic Date Input Component](https://youtu.be/f76cTmnRdUI)
+
 [live demo](https://arabic-date-input-app.netlify.app/).
 
 [GitHub repository](https://github.com/zcodev97/arabic-date-input-app).
@@ -22,12 +28,6 @@ The Arabic Date Input component is designed to enhance user experience by provid
   {{ edit_1 }}
 - **Date Picker Integration**: Users can select dates from a calendar interface for easier input.
   {{ edit_2 }}
-
-## Demo of the Arabic Date Input Component
-
-Here’s a quick demo showing how the Arabic Date Input component works:
-
-[Demo of the Arabic Date Input Component](https://youtu.be/f76cTmnRdUI)
 
 ### How to Use
 
